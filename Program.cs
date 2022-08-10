@@ -1,4 +1,4 @@
-﻿string[] words = new string[]{"teemo"};
+﻿string[] words = new string[]{"teemo", "cat", "dog", "internet", "urgot", "tower"};
 char[] guesses;
 string[] fails;
 string secretword;
@@ -36,7 +36,7 @@ void gameCicle1()
     }
     else if (won)
     {
-        Console.WriteLine("Gana:"+ Jug2);
+        Console.WriteLine("Gana:"+ Jug1);
     }
     else
     {
@@ -60,7 +60,7 @@ void gameCicle2()
     }
     else if (won)
     {
-        Console.WriteLine("Gana:"+ Jug1);
+        Console.WriteLine("Gana:"+ Jug2);
     }
     else
     {
